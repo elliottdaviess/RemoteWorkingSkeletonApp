@@ -6,14 +6,14 @@ import { StyleSheet, Platform, Image, Text, View } from "react-native";
 
 // import { StyleSheet, Text, View } from "react-native";
 import { createStackNavigator } from "react-navigation";
-import BoardScreen from "./components/BoardScreen";
-import BoardDetailScreen from "./components/BoardDetailScreen";
-import AddBoardScreen from "./components/AddBoardScreen";
-import EditBoardScreen from "./components/EditBoardScreen";
-import Loading from "./components/Loading";
-import SignUp from "./components/SignUp";
-import Login from "./components/Login";
-import Main from "./components/Main";
+import BoardScreen from "./components/CRUD/BoardScreen";
+import BoardDetailScreen from "./components/CRUD/BoardDetailScreen";
+import AddBoardScreen from "./components/CRUD/AddBoardScreen";
+import EditBoardScreen from "./components/CRUD/EditBoardScreen";
+import Loading from "./components/Auth/Loading";
+import SignUp from "./components/Auth/SignUp";
+import Login from "./components/Auth/Login";
+import Main from "./components/Auth/Main";
 
 const RootStack = createStackNavigator(
   {
